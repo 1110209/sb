@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="zByMD?:xS+*Gz_e^Ih9Y" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="E1T8=pbBd$];ZtKR-q}x"><value name="TIMES"><shadow type="math_whole_number" id="w_A%UL|3}oUO/b:%[@u-"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="e40RNaMUCv4^[Sx@7+)R"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="y7;Q#bW2AHQ~`MrkzQ7n"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="YW]96U5^5/(:inwe%Dtz"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="CW!~Oqg]VMHB|MQ:3i_)" x="564" y="81"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="}5Dqs9W4QNX=stZ0W(#Z"><value name="TIMES"><shadow type="math_whole_number" id="HMs+SyHPgEGvng7tV=ha"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="(3lcAR53W8Pr-hK.Pwk6"><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="QInq%5ydWgQNj4|-m8i0"><field name="i">IconNames.Heart</field><next><block type="device_print_message" id=".rrt`5s8D3=EB4*fe+Wr"><value name="text"><shadow type="text" id="1-?j?c6PJ1%6%s[q!vx~"><field name="TEXT">SB</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="0%kXR-?A}{cPl0ZnUbAH" x="633" y="516"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="_F$kT#AD+E5d{$DRi^c@"><field name="i">IconNames.Happy</field></block></statement></block></xml>
